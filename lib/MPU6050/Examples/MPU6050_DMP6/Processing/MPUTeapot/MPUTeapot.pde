@@ -68,10 +68,10 @@ void setup() {
     println(Serial.list());
 
     // get the first available port (use EITHER this OR the specific port code below)
-    String portName = "/dev/ttyUSB1";
+    //String portName = "/dev/ttyUSB1";
     
     // get a specific serial port (use EITHER this OR the first-available code above)
-    //String portName = "COM4";
+    String portName = "COM3";
     
     // open the serial port
     port = new Serial(this, portName, 115200);
